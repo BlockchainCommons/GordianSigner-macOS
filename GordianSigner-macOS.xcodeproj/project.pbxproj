@@ -16,9 +16,6 @@
 		D0356DCF2537E3F5004CF8F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0356DCD2537E3F5004CF8F7 /* Main.storyboard */; };
 		D0356DDB2537E3F6004CF8F7 /* GordianSigner_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0356DDA2537E3F6004CF8F7 /* GordianSigner_macOSTests.swift */; };
 		D0356DE62537E3F6004CF8F7 /* GordianSigner_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0356DE52537E3F6004CF8F7 /* GordianSigner_macOSUITests.swift */; };
-		D0356DF62537E440004CF8F7 /* LibWally.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0356DF42537E43F004CF8F7 /* LibWally.xcframework */; };
-		D0356DF72537E440004CF8F7 /* LibWally.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0356DF42537E43F004CF8F7 /* LibWally.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D0356DF82537E440004CF8F7 /* CLibWally.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0356DF52537E440004CF8F7 /* CLibWally.xcframework */; };
 		D0356DFE2537E81D004CF8F7 /* QRScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0356DFD2537E81D004CF8F7 /* QRScanner.swift */; };
 		D0356E012537E87A004CF8F7 /* URKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0356E002537E87A004CF8F7 /* URKit */; };
 		D0356E0325382062004CF8F7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0356E0225382062004CF8F7 /* Utilities.swift */; };
@@ -30,6 +27,9 @@
 		D0356E1025382455004CF8F7 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0356E0A25382455004CF8F7 /* Encryption.swift */; };
 		D0C0AFA8253D2A4600B07221 /* Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0AFA7253D2A4500B07221 /* Signer.swift */; };
 		D0C0AFAA253D356A00B07221 /* QRDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0AFA9253D356A00B07221 /* QRDisplayer.swift */; };
+		D0FEC850253D42F4008EBB70 /* CLibWally.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FEC84E253D42F3008EBB70 /* CLibWally.xcframework */; };
+		D0FEC852253D42F8008EBB70 /* LibWally.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FEC84F253D42F4008EBB70 /* LibWally.xcframework */; };
+		D0FEC853253D42F8008EBB70 /* LibWally.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0FEC84F253D42F4008EBB70 /* LibWally.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,13 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D0356DFA2537E440004CF8F7 /* Embed Frameworks */ = {
+		D0FEC854253D42F8008EBB70 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D0356DF72537E440004CF8F7 /* LibWally.xcframework in Embed Frameworks */,
+				D0FEC853253D42F8008EBB70 /* LibWally.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,8 +80,6 @@
 		D0356DE12537E3F6004CF8F7 /* GordianSigner-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GordianSigner-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0356DE52537E3F6004CF8F7 /* GordianSigner_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GordianSigner_macOSUITests.swift; sourceTree = "<group>"; };
 		D0356DE72537E3F6004CF8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0356DF42537E43F004CF8F7 /* LibWally.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LibWally.xcframework; path = ../BCLibwallySwift/build/LibWally.xcframework; sourceTree = "<group>"; };
-		D0356DF52537E440004CF8F7 /* CLibWally.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CLibWally.xcframework; path = ../BCLibwallySwift/build/CLibWally.xcframework; sourceTree = "<group>"; };
 		D0356DFD2537E81D004CF8F7 /* QRScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanner.swift; sourceTree = "<group>"; };
 		D0356E0225382062004CF8F7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		D0356E0525382455004CF8F7 /* URHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URHelper.swift; sourceTree = "<group>"; };
@@ -92,6 +90,8 @@
 		D0356E0A25382455004CF8F7 /* Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
 		D0C0AFA7253D2A4500B07221 /* Signer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signer.swift; sourceTree = "<group>"; };
 		D0C0AFA9253D356A00B07221 /* QRDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRDisplayer.swift; sourceTree = "<group>"; };
+		D0FEC84E253D42F3008EBB70 /* CLibWally.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CLibWally.xcframework; sourceTree = "<group>"; };
+		D0FEC84F253D42F4008EBB70 /* LibWally.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LibWally.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0356E012537E87A004CF8F7 /* URKit in Frameworks */,
-				D0356DF82537E440004CF8F7 /* CLibWally.xcframework in Frameworks */,
-				D0356DF62537E440004CF8F7 /* LibWally.xcframework in Frameworks */,
+				D0FEC850253D42F4008EBB70 /* CLibWally.xcframework in Frameworks */,
+				D0FEC852253D42F8008EBB70 /* LibWally.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 				D0356DD92537E3F6004CF8F7 /* GordianSigner-macOSTests */,
 				D0356DE42537E3F6004CF8F7 /* GordianSigner-macOSUITests */,
 				D0356DC22537E3EE004CF8F7 /* Products */,
-				D0356DF32537E43F004CF8F7 /* Frameworks */,
+				D0FEC846253D42BE008EBB70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,15 +182,6 @@
 			path = "GordianSigner-macOSUITests";
 			sourceTree = "<group>";
 		};
-		D0356DF32537E43F004CF8F7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D0356DF52537E440004CF8F7 /* CLibWally.xcframework */,
-				D0356DF42537E43F004CF8F7 /* LibWally.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D0356E0425382455004CF8F7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +195,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		D0FEC846253D42BE008EBB70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0FEC84E253D42F3008EBB70 /* CLibWally.xcframework */,
+				D0FEC84F253D42F4008EBB70 /* LibWally.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,7 +214,7 @@
 				D0356DBD2537E3EE004CF8F7 /* Sources */,
 				D0356DBE2537E3EE004CF8F7 /* Frameworks */,
 				D0356DBF2537E3EE004CF8F7 /* Resources */,
-				D0356DFA2537E440004CF8F7 /* Embed Frameworks */,
+				D0FEC854253D42F8008EBB70 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
