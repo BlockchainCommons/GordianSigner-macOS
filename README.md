@@ -1,6 +1,6 @@
 # Blockchain Commons GordianSigner-macOS
 
-**GordianSigner-macOS** is an offline proof of concept PSBT signing tool for your iOS and OSX device.
+**GordianSigner-macOS** is an offline proof of concept PSBT signing tool for your OSX device.
 
 ## Status - Active Development
 
@@ -23,7 +23,7 @@ This table below also establishes provenance (repository of origin, permalink, a
 To build GordianSigner-macOS you'll need to use the following tools:
 
 - Xcode - ([Xcode](https://apps.apple.com/id/app/xcode/id497799835?mt=12)).
-- macOS 10.15 or iOS 13
+- macOS 10.15
 
 ### Derived from…
 
