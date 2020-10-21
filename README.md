@@ -1,10 +1,23 @@
 # Blockchain Commons GordianSigner-macOS
 
-**GordianSigner-macOS** is an offline proof of concept PSBT signing tool for your OSX device.
+**Gordian Signer** allows users to participate in a multisig by adding a signature to an otherwise unsigned or partially signed PSBT, where they did not initiate the transaction. It can also be used for signing a single-signature PSBT. It's largely intended as an offline signing tool, which allows signing without the usage of a full node: a real wallet is need to both initiate an account map and to initiate a transaction.
+
+## Additional Information
+
+This is a companion app for the Gordian system:
+
+* [Gordian system](https://github.com/BlockchainCommons/Gordian) — A self-sovereign Bitcoin wallet and node
+
+Gordian Signer is a multiplatform utility that's also available as:
+
+* [GordianSigner for Android](https://github.com/BlockchainCommons/GordianSigner-Android)
+* [GordianSigner for iOS](https://github.com/BlockchainCommons/GordianSigner-Catalyst)
 
 ## Status - Active Development
 
 GordianSigner-macOS is currently under active development. It should not be used for production tasks until it has had further testing and auditing.
+
+We expect this to be a temporary repo. We also a [Catalyst repo](https://github.com/BlockchainCommons/GordianSigner-Catalyst), which we'd prefer to use for macOS, to totally standardize our code base, but currently we're unable to do so because of security locks on the desktop camera.
 
 ## Origin, Authors, Copyright & Licenses
 
