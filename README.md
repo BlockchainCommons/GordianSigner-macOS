@@ -1,4 +1,4 @@
-# Blockchain Commons GordianSigner-macOS
+# Blockchain Commons GordianCosigner-macOS
 
 ### _by Peter Denton and Christopher Allen_
 
