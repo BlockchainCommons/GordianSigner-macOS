@@ -4,7 +4,7 @@
 
 ![](https://raw.githubusercontent.com/BlockchainCommons/GordianSigner-Catalyst/master/images/logos/gordian-signer-screen.jpg)
 
-**Gordian Signer** allows users to participate in a multisig by adding a signature to an otherwise unsigned or partially signed PSBT, where they did not initiate the transaction. It can also be used for signing a single-signature PSBT. It's largely intended as an offline signing tool, which allows signing without the usage of a full node: a real wallet is need to both initiate an account map and to initiate a transaction.
+**Gordian Cosigner** allows users to participate in a multisig by adding a signature to an otherwise unsigned or partially signed PSBT, where they did not initiate the transaction. It can also be used for signing a single-signature PSBT. It's largely intended as an offline signing tool, which allows signing without the usage of a full node: a real wallet is need to both initiate an account map and to initiate a transaction.
 
 ## Additional Information
 
@@ -12,14 +12,14 @@ This is a companion app for the Gordian system:
 
 * [Gordian system](https://github.com/BlockchainCommons/Gordian) — A self-sovereign Bitcoin wallet and node
 
-Gordian Signer is a multiplatform utility that's also available as:
+**Gordian Cosigner** is a multiplatform utility that's also available as:
 
-* [GordianSigner for Android](https://github.com/BlockchainCommons/GordianSigner-Android)
-* [GordianSigner for iOS](https://github.com/BlockchainCommons/GordianSigner-Catalyst)
+* [GordianCosigner for Android](https://github.com/BlockchainCommons/GordianSigner-Android)
+* [GordianCosigner for iOS](https://github.com/BlockchainCommons/GordianSigner-Catalyst)
 
 ## Status - Active Development
 
-GordianSigner-macOS is currently under active development. It should not be used for production tasks until it has had further testing and auditing.
+**GordianCosigner-macOS** is currently under active development. It should not be used for production tasks until it has had further testing and auditing.
 
 We expect this to be a temporary repo. We also a [Catalyst repo](https://github.com/BlockchainCommons/GordianSigner-Catalyst), which we'd prefer to use for macOS, to totally standardize our code base, but currently we're unable to do so because of security locks on the desktop camera.
 
@@ -37,20 +37,20 @@ This table below also establishes provenance (repository of origin, permalink, a
 
 ### Dependencies
 
-To build GordianSigner-macOS you'll need to use the following tools:
+To build **GordianCosigner-macOS** you'll need to use the following tools:
 
 - Xcode - ([Xcode](https://apps.apple.com/id/app/xcode/id497799835?mt=12)).
 - macOS 10.15
 
 ### Derived from…
 
-This GordianSigner-macOS project is either derived from or was inspired by:
+This **GordianCosigner-macOS** project is either derived from or was inspired by:
 
 - [BlockchainCommons/GordianWallet-iOS](https://github.com/BlockchainCommons/GordianWallet-iOS) — Bitcoin wallet powered by your own node over Tor, from [BlockchainCommons](https://github.com/BlockchainCommons).
 
 ### Used with…
 
-These are other projects that work with or leverage GordianSigner-macOS:
+These are other projects that work with or leverage **GordianCosigner-macOS**:
 
 - [BlockchainCommons/bc-libwally-core](https://github.com/BlockchainCommons/bc-libwally-core) — Used for signing PSBT's offline, from [ElementsProject](https://github.com/ElementsProject).
 
@@ -58,9 +58,9 @@ These are other projects that work with or leverage GordianSigner-macOS:
 
 ## Financial Support
 
-GordianSigner-macOS is a project of [Blockchain Commons](https://www.blockchaincommons.com/). We are proudly a "not-for-profit" social benefit corporation committed to open source & open development. Our work is funded entirely by donations and collaborative partnerships with people like you. Every contribution will be spent on building open tools, technologies, and techniques that sustain and advance blockchain and internet security infrastructure and promote an open web.
+**GordianCosigner-macOS** is a project of [Blockchain Commons](https://www.blockchaincommons.com/). We are proudly a "not-for-profit" social benefit corporation committed to open source & open development. Our work is funded entirely by donations and collaborative partnerships with people like you. Every contribution will be spent on building open tools, technologies, and techniques that sustain and advance blockchain and internet security infrastructure and promote an open web.
 
-To financially support further development of GordianSigner-macOS and other projects, please consider becoming a Patron of Blockchain Commons through ongoing monthly patronage as a [GitHub Sponsor](https://github.com/sponsors/BlockchainCommons). You can also support Blockchain Commons with bitcoins at our [BTCPay Server](https://btcpay.blockchaincommons.com/).
+To financially support further development of **GordianCosigner-macOS** and other projects, please consider becoming a Patron of Blockchain Commons through ongoing monthly patronage as a [GitHub Sponsor](https://github.com/sponsors/BlockchainCommons). You can also support Blockchain Commons with bitcoins at our [BTCPay Server](https://btcpay.blockchaincommons.com/).
 
 ## Contributing
 
